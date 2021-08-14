@@ -1,0 +1,60 @@
+:root {
+    --primary-color: green;
+    --secondary-color: blue;
+    
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+h1, h2 {
+  text-align: center;
+  color: rgb(169, 155, 196);
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+
+input, label {
+    display: block;
+}
+input {
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: larger;
+}
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 0.5rem;
+}
+
+button {
+    display: block;
+    margin-top: 0.5rem;
+    margin: auto;
+    background: transparent;
+    color: rgb(169, 155, 196);
+    border-color: rgb(169, 155, 196);
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.output {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: darkred;
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: lightskyblue;
+  display: flexbox;
+}
