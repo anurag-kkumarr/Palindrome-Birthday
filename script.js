@@ -143,6 +143,10 @@ function getNextPalindromeDate(date){
 function clickHandler(e){
     var dateOfBirthStr = inputBirthDate.value;
 
+    if(dateOfBirthStr === ''){
+        outputDiv.innerText = "Select the Date to proceed"
+    }
+
     if(dateOfBirthStr !== ''){
         var dateOfBirth = dateOfBirthStr.split('-');
         var date = {

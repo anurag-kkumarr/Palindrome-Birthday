@@ -9,6 +9,11 @@ body {
   color: var(--secondary-color);
 }
 
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
 h1, h2 {
   text-align: center;
   color: black;
@@ -22,10 +27,12 @@ h1, h2 {
 
 input, label {
     display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 input {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: larger;
 }
 label {
@@ -37,8 +44,8 @@ label {
 
 button {
     display: block;
-    margin-top: 0.5rem;
     margin: auto;
+    margin-bottom: 2rem;
     background: transparent;
     color: black;
     border-color: rgb(169, 155, 196);
@@ -46,6 +53,7 @@ button {
     font-weight: bold;
     font-size: larger;
     background-color: white;
+    cursor: pointer;
 
 }
 
